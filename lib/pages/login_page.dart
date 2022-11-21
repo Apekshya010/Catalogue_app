@@ -32,7 +32,9 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("My App", style: TextStyle(color: Colors.white)),
+        title: Center(
+            child:
+                Text("Catalogue App", style: TextStyle(color: Colors.white))),
       ),
       body: Center(
         child: SingleChildScrollView(

@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:new_project1/pages/login_page.dart';
+import 'package:new_project1/utils/routes.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({Key? key}) : super(key: key);
@@ -15,7 +17,7 @@ class MyDrawer extends StatelessWidget {
           padding: EdgeInsets.zero,
           child: UserAccountsDrawerHeader(
             margin: EdgeInsets.zero,
-            accountName: Text("Apekshya"),
+            accountName: Text("Apekshya Shakya"),
             accountEmail: Text("abc@gmail.com"),
             currentAccountPicture: CircleAvatar(
               backgroundImage: NetworkImage(imageUrl),
@@ -26,6 +28,13 @@ class MyDrawer extends StatelessWidget {
             leading: Icon(CupertinoIcons.home),
             title: Text(
               "Home",
+              textScaleFactor: 1.3,
+            )),
+        ListTile(
+            onTap: () => Navigator.pushNamed(context, MyRoutes.loginRoute),
+            leading: Icon(CupertinoIcons.back),
+            title: Text(
+              "Login Page",
               textScaleFactor: 1.3,
             )),
         ListTile(

@@ -1,0 +1,53 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "desc": "Cotton summer shirt for men",
+            "name": "White T-shirt",
+            "price": 100,
+            "image": "https://static01.nyt.com/images/2013/09/22/magazine/22wmt/22wmt-superJumbo-v2.jpg"
+        },
+        {
+            "id": 2,
+            "desc": "Elegant baby pink vintage dress for women",
+            "name": "Pink dress",
+            "price": 400,
+            "image": "https://media.istockphoto.com/id/1217970962/photo/elegance-peach-vintage-dress-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Uht6bRtoSLHgt2v7FUgwb6vrGTkn7XIa85MuQXjuzSE="
+        },
+        {
+            "id": 3,
+            "desc": "Jeans box pants for women",
+            "name": "White Pants",
+            "price": 999,
+            "image": "https://static-01.daraz.com.np/p/9d91b28e444745859a9339143f550044.jpg"
+        },
+        {
+            "id": 4,
+            "desc": "Cute strawberry dress for women",
+            "name": "Fashionable onepiece dress",
+            "price": 289,
+            "image": "https://static01.nyt.com/images/2020/08/18/fashion/18STRAWBERRYDRESS-4/18STRAWBERRYDRESS-4-mobileMasterAt3x.jpg"
+        },
+        {
+            "id": 5,
+            "desc": "Branded white casual sneakers for both men and women ",
+            "name": "White shoes",
+            "price": 60,
+            "image": "https://rukminim1.flixcart.com/image/612/612/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"
+        },
+        {
+            "id": 6,
+            "desc": "Small lady dior handbag for women ",
+            "name": "Lady Dior Bag",
+            "price": 3000,
+            "image": "https://media.dior.com/couture/ecommerce/media/catalog/product/S/Y/1590486302_M0538OCAL_M900_E02_GHC.jpg?imwidth=800"
+        },
+        {
+            "id": 8,
+            "desc": "Winter outfits for toddlers",
+            "name": "Baby outfits",
+            "price": 30,
+            "image": "https://n.nordstrommedia.com/id/sr3/385b29ee-a4f6-402e-8ee7-bf578fc833e2.jpeg?h=365&w=240&dpr=2"
+        }
+    ]
+}
